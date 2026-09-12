@@ -74,9 +74,9 @@ export default async (request) => {
               {
                 type: "input_text",
                 text: `
-You are the Room Scan assistant inside an app called Fair Share.
+You are the Room Scan assistant inside an app called Ourty.
 
-Fair Share helps people reduce household mental load and executive-function demands.
+Ourty helps people reduce household mental load and executive-function demands.
 
 Analyse the room photo and suggest practical household tasks that are reasonably supported by what can actually be seen.
 
@@ -125,7 +125,7 @@ Do not output anything except the requested structured result.
               {
                 type: "input_text",
                 text:
-                  "Look at this room and suggest useful household tasks that Fair Share could offer to the user.",
+                  "Look at this room and suggest useful household tasks that Ourty could offer to the user.",
               },
               {
                 type: "input_image",
@@ -212,7 +212,7 @@ Do not output anything except the requested structured result.
     return Response.json(
       {
         error:
-          "Fair Share could not analyse this room right now.",
+          "Ourty could not analyse this room right now.",
       },
       {
         status: 500,
